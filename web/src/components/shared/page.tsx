@@ -147,24 +147,19 @@ const Page = ({getById}: {getById: (id: number) => RoleType | ProjectType | unde
                                 {filesList.map(f => {
                                     return (
                                         <li key={`${project.id} files ${f.title}`}>
-                                            <a
-                                                href={f.url}
-                                                download
-                                                target="_blank"
-                                                >
 
                                             <Button
                                                 variant="link"
-                                                className="text-sm font-thin w-fit">
+                                                className="text-sm font-thin w-fit"
+                                                onClick={() => {
+                                                    window.open(f.url);
+                                                }}>
                                             <div className="flex w-fit">
                                                 <FileTextIcon>
                                                 </FileTextIcon>        
                                                 {f.title}
                                             </div>
                                             </Button>
-
-                                            </a>
-
                                         </li>
                                     )
                                 })}

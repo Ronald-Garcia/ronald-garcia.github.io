@@ -253,11 +253,11 @@ const crane_project = createProject({
     ],
     files: [
         {
-            url: "../../public/MBD Lab Design Project assignment handout 2024.pdf",
+            url: "../../MBD Lab Design Project assignment handout 2024.pdf",
             title: "Competition specifications and restrictions."
         },
         {
-            url: "../../public/Crane Design Report.pdf",
+            url: "../../Crane Design Report.pdf",
             title: "PGH Inc.'s report."
         }
     ]
@@ -378,7 +378,7 @@ const piano_project = createProject({
     ],
     files: [
         {
-            url: "../../public/MechE Final Design Report (2).pdf",
+            url: "../../MechE Final Design Report (2).pdf",
             title: "Final Report"
         }
     ]
@@ -469,7 +469,7 @@ const dsf_project = createProject({
     ],
     files: [
         {
-            url: "../../public/DSF Final Project Report (1).pdf",
+            url: "../../DSF Final Project Report (1).pdf",
             title: "Final Report"
         }
     ]
@@ -536,7 +536,7 @@ const ecg_project = createProject({
 
     files: [
         {
-            url: "../../public/Final Project Mastering (2).pdf",
+            url: "../../Final Project Mastering (2).pdf",
             title: "Final Report"
         }
     ]
